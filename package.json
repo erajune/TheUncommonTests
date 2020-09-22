@@ -1,0 +1,25 @@
+{
+  "name": "the-uncommon-tests",
+  "version": "1.0.0",
+  "description": "Tests for Automate The Uncommon Things With Appium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "wswebcreation",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "@wdio/appium-service": "^6.4.7",
+    "@wdio/cli": "^6.5.2",
+    "@wdio/jasmine-framework": "^6.5.0",
+    "@wdio/local-runner": "^6.5.2",
+    "@wdio/sauce-service": "^6.5.0",
+    "@wdio/spec-reporter": "^6.4.7",
+    "@wdio/sync": "^6.5.0"
+  }
+}
