@@ -6,7 +6,7 @@
   "scripts": {
     "test.app.browser.app": "npx wdio wdio.conf.js --spec=/tests/app.browser.app.spec.js",
     "test.quick.actions": "npx wdio wdio.conf.js --spec=/tests/quick.actions.spec.js",
-    "test.gestures": "npx wdio wdio.conf.js --spec=tests/gestures.spec.js"
+    "test.poll": "npx wdio wdio.conf.js --spec=tests/poll.spec.js"
   },
   "keywords": [],
   "author": "wswebcreation",

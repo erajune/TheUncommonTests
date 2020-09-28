@@ -92,7 +92,7 @@ When you understand the code of this part of the coding session go to the next b
  
 
 ## 03-poll
-You now checked out the `03-poll`-branch. The code of the test which has been used for the demo can be found [here](tests/gestures.spec.js).
+You now checked out the `03-poll`-branch. The code of the test which has been used for the demo can be found [here](tests/poll.spec.js).
 
 If you want to run the `gestures`-tests on both devices just run
 
