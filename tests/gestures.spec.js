@@ -27,7 +27,7 @@ describe('Appium', () => {
         driver.launchApp();
     })
 
-    fit('should be able to automate drag/drop', () => {
+    it('should be able to automate drag/drop', () => {
         /**
          * 2. Check if the element is visible that we want to interact with
          *    else use the just created method for it
