@@ -4,7 +4,7 @@
   "description": "Tests for Automate The Uncommon Things With Appium",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test.app.browser.app": "npx wdio wdio.conf.js --spec=/Users/wimselles/Git/rtc/2020/TheUncommonTests/tests/app.browser.app.spec.js"
   },
   "keywords": [],
   "author": "wswebcreation",
