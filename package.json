@@ -4,7 +4,8 @@
   "description": "Tests for Automate The Uncommon Things With Appium",
   "main": "index.js",
   "scripts": {
-    "test.app.browser.app": "npx wdio wdio.conf.js --spec=/Users/wimselles/Git/rtc/2020/TheUncommonTests/tests/app.browser.app.spec.js"
+    "test.app.browser.app": "npx wdio wdio.conf.js --spec=/Users/wimselles/Git/rtc/2020/TheUncommonTests/tests/app.browser.app.spec.js",
+    "test.quick.actions": "npx wdio wdio.conf.js --spec=/Users/wimselles/Git/rtc/2020/TheUncommonTests/tests/quick.actions.spec.js"
   },
   "keywords": [],
   "author": "wswebcreation",

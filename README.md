@@ -72,6 +72,23 @@ If you want to run it only on the iOS device run
     OS=ios npm run test.app.browser.app
 
 When you understand the code of this part of the coding session go to the next branch which is `02-quick-actions`.
+
+## 02-quick-actions
+You now checked out the `02-quick-actions`-branch. The code of the test which have been used for the demo can be found [here](./tests/quick.actions.spec.js).
+
+If you want to run the `quick-actions`-tests on both devices just run
+
+    npm run test.quick.actions
+    
+If you want to run it only on the Android device run
+
+    OS=android npm run test.quick.actions
+    
+If you want to run it only on the iOS device run
+
+    OS=ios npm run test.quick.actions
+
+When you understand the code of this part of the coding session go to the next branch which is `03-poll`.
  
 ## Next steps
 The session covers the following subjects:
