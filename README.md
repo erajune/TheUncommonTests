@@ -90,6 +90,22 @@ If you want to run it only on the iOS device run
 
 When you understand the code of this part of the coding session go to the next branch which is `03-poll`.
  
+
+## 03-poll
+You now checked out the `03-poll`-branch. The code of the test which have been used for the demo can be found [here](tests/gestures.spec.js).
+
+If you want to run the `gestures`-tests on both devices just run
+
+    npm run test.gestures
+    
+If you want to run it only on the Android device run
+
+    OS=android npm run test.gestures
+    
+If you want to run it only on the iOS device run
+
+    OS=ios npm run test.gestures
+
 ## Next steps
 The session covers the following subjects:
 - App-Browser-App Interaction => branch `01-app-browser-app`
